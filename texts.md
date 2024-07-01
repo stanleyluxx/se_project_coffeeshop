@@ -1,19 +1,3 @@
-## Section: Recipes
-
-**Title and description**
-
-Recipes
-Check out some recipes we've collected for your home-brewing convenience:
-
-**iframe text**
-
-Aeropress recipe
-~5 min
-French press recipe
-~15 min
-
----
-
 ## Section: Reservation
 
 **Title and description**
