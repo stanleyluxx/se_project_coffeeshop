@@ -1,7 +1,6 @@
 .about {
   display: flex;
   flex-direction: column;
-  align-items: center;
   background-color: #0a2850;
   color: white;
   padding: 60px 80px;
@@ -34,14 +33,11 @@
   }
   100% {
     transform: scale(1.2);
-    opacity: 1;
+    opacity: 0;
   }
 }
 
 .about__title {
-  position: absolute;
-  left: 80px;
-  top: 85px;
   color: #ffffff;
   font-family: "Inter", Arial, Helvetica, sans-serif;
   font-style: normal;
@@ -49,7 +45,8 @@
   font-size: 44px;
   line-height: 52px;
   max-width: 320px;
-  z-index: 2;
+  z-index: 1;
+  margin: 0;
 }
 
 .about__content {
@@ -57,11 +54,14 @@
   margin-top: 119px;
   margin-bottom: 173px;
   margin-left: 500px;
-  text-align: center;
+}
+
+.about__paragraph {
   font-family: "Noto Serif", "Times New Roman", Times, serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
   color: white;
+  margin: 0px 0px 20px;
 }

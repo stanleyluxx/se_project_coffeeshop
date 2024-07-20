@@ -1,15 +1,18 @@
 .header {
   padding: 30px 80px 40px;
   display: flex;
+  position: relative;
   flex-direction: column;
   min-height: 720px;
   max-height: 800px;
   height: 100vh;
   color: #ffffff;
-  background-image: url("/images/background_header.svg");
+  background-image: url("../images/background_header.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  z-index: 1;
+  box-sizing: border-box;
 }
 
 .header__title {
@@ -52,6 +55,7 @@
   top: 124px;
   right: 5px;
   max-width: 646px;
+  z-index: -1;
 }
 
 .header__footer {
@@ -62,6 +66,7 @@
   justify-content: space-between;
   box-sizing: border-box;
   color: #838383;
+  align-items: end;
 }
 
 .header__paragraph {
