@@ -40,8 +40,7 @@
   justify-content: center;
   list-style-type: none;
   gap: 40px;
-  padding: 80px;
-  padding-left: 0px;
+  padding: 80px 0px 0px;
   margin-bottom: 0px;
   margin-top: 0px;
 }

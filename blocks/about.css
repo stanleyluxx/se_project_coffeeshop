@@ -1,9 +1,8 @@
 .about {
   display: flex;
-  flex-direction: column;
   background-color: #0a2850;
   color: white;
-  padding: 60px 80px;
+  padding: 100px 80px 173px;
   justify-content: space-between;
   overflow: hidden;
   position: relative;
@@ -51,9 +50,8 @@
 
 .about__content {
   max-width: 660px;
-  margin-top: 119px;
-  margin-bottom: 173px;
-  margin-left: 500px;
+  margin-top: 19px;
+  margin-bottom: 0px;
 }
 
 .about__paragraph {
@@ -64,4 +62,8 @@
   line-height: 30px;
   color: white;
   margin: 0px 0px 20px;
+}
+
+.about__paragraph:last-of-type {
+  margin-bottom: 0px;
 }
